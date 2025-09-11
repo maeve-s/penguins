@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "Penguins_data.html",
+    "href": "Penguins_data.html",
+    "title": "Penguin Data",
+    "section": "",
+    "text": "The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands."
+  },
+  {
+    "objectID": "Penguins_data.html#data",
+    "href": "Penguins_data.html#data",
+    "title": "Penguin Data",
+    "section": "",
+    "text": "The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands."
+  },
+  {
+    "objectID": "Penguins_data.html#single-trait-distribution",
+    "href": "Penguins_data.html#single-trait-distribution",
+    "title": "Penguin Data",
+    "section": "Single trait distribution",
+    "text": "Single trait distribution\nThese charts show the distribution in bill lengths of different species of penguins."
+  },
+  {
+    "objectID": "Penguins_data.html#relationship-between-multiple-traits",
+    "href": "Penguins_data.html#relationship-between-multiple-traits",
+    "title": "Penguin Data",
+    "section": "Relationship between multiple traits",
+    "text": "Relationship between multiple traits\nThese charts show the relationship between body mass and flipper length in the different species of penguins."
+  },
+  {
+    "objectID": "Penguins_data.html#sexual-dimorphism",
+    "href": "Penguins_data.html#sexual-dimorphism",
+    "title": "Penguin Data",
+    "section": "Sexual dimorphism",
+    "text": "Sexual dimorphism\nThese charts show which traits are sexually dimorphic and which are not."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Single_trait.html",
+    "href": "Single_trait.html",
+    "title": "Single Trait",
+    "section": "",
+    "text": "These charts show the distribution in bill lengths of different species of penguins."
+  },
+  {
+    "objectID": "Penguin_data.html",
+    "href": "Penguin_data.html",
+    "title": "Penguins",
+    "section": "",
+    "text": "The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands."
+  },
+  {
+    "objectID": "Penguin_data.html#data",
+    "href": "Penguin_data.html#data",
+    "title": "Penguins",
+    "section": "",
+    "text": "The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands."
+  },
+  {
+    "objectID": "Penguin_data.html#single-trait-distribution",
+    "href": "Penguin_data.html#single-trait-distribution",
+    "title": "Penguins",
+    "section": "Single trait distribution",
+    "text": "Single trait distribution"
+  },
+  {
+    "objectID": "Penguin_data.html#relationship-between-multiple-traits",
+    "href": "Penguin_data.html#relationship-between-multiple-traits",
+    "title": "Penguins",
+    "section": "Relationship between multiple traits",
+    "text": "Relationship between multiple traits"
+  },
+  {
+    "objectID": "Penguin_data.html#sexual-dimorphism",
+    "href": "Penguin_data.html#sexual-dimorphism",
+    "title": "Penguins",
+    "section": "Sexual dimorphism",
+    "text": "Sexual dimorphism"
+  },
+  {
+    "objectID": "Multiple_traits.html",
+    "href": "Multiple_traits.html",
+    "title": "Multiple Traits",
+    "section": "",
+    "text": "These charts show the relationship between body mass and flipper length in the different species of penguins."
+  },
+  {
+    "objectID": "Secual_dimorphism.html",
+    "href": "Secual_dimorphism.html",
+    "title": "Sexual Dimorphism",
+    "section": "",
+    "text": "These charts show which traits are sexually dimorphic and which are not."
+  }
+]

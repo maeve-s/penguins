@@ -5,7 +5,7 @@ date: "2025-09-11"
 ---
 
 ```{r include = FALSE}
-install.packages("palmerpenguins")
+#install.packages("palmerpenguins")
 library(palmerpenguins)
 library(tidyverse)
 ```
