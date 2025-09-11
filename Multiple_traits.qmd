@@ -1,0 +1,20 @@
+---
+title: "Multiple Traits"
+format: html
+editor: visual
+---
+
+```{r include = FALSE}
+#install.packages("palmerpenguins")
+library(palmerpenguins)
+library(tidyverse)
+```
+
+These charts show the relationship between body mass and flipper length in the different species of penguins.
+
+```{R echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = body_mass_g, y = flipper_length_mm, color = species)) +
+  geom_point() +
+  geom_smooth(method="lm")
+
+```

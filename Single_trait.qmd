@@ -1,0 +1,25 @@
+---
+title: "Single Trait"
+format: html
+editor: visual
+---
+
+```{r include = FALSE}
+#install.packages("palmerpenguins")
+library(palmerpenguins)
+library(tidyverse)
+```
+
+These charts show the distribution in bill lengths of different species of penguins.
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = bill_length_mm, fill = species)) +
+  geom_histogram(binwidth = 1) +
+  facet_wrap(~species, nrow = 3)
+```
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+penguins %>%
+  ggplot() +
+  geom_density(mapping = aes(x = bill_length_mm, fill=species), alpha=0.5)
+```

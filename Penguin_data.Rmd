@@ -1,0 +1,23 @@
+---
+title: "Penguins"
+output: html_document
+date: "2025-09-11"
+---
+
+```{r include = FALSE}
+install.packages("palmerpenguins")
+library(palmerpenguins)
+library(tidyverse)
+```
+
+## Data
+
+The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands.
+
+![](https://www.thoughtco.com/thmb/DXL0rwztfCOpWKXmGD_cNheS1uQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/149267744-56a008755f9b58eba4ae8f46.jpg){width="318"}
+
+## Single trait distribution
+
+## Relationship between multiple traits
+
+## Sexual dimorphism

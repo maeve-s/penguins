@@ -1,0 +1,20 @@
+---
+title: "Sexual Dimorphism"
+format: html
+editor: visual
+---
+
+```{r include = FALSE}
+#install.packages("palmerpenguins")
+library(palmerpenguins)
+library(tidyverse)
+```
+
+These charts show which traits are sexually dimorphic and which are not.
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = sex)) +
+  geom_point(size = 1) +
+  facet_wrap(~species)
+
+```

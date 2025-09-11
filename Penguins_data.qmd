@@ -1,0 +1,57 @@
+---
+title: "Penguin Data"
+format: html
+editor: visual
+---
+
+```{r include = FALSE}
+#install.packages("palmerpenguins")
+library(palmerpenguins)
+library(tidyverse)
+```
+
+## Data
+
+The data I am working with includes data (like flipper length, bill length, and bill depth) from 344 penguins. The penguins in this dataset are from 3 different species, and the data was collected from 3 islands.
+
+![](https://www.thoughtco.com/thmb/DXL0rwztfCOpWKXmGD_cNheS1uQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/149267744-56a008755f9b58eba4ae8f46.jpg){width="318"}
+
+## Single trait distribution
+
+These charts show the distribution in bill lengths of different species of penguins.
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = bill_length_mm, fill = species)) +
+  geom_histogram(binwidth = 1) +
+  facet_wrap(~species, nrow = 3)
+```
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+penguins %>%
+  ggplot() +
+  geom_density(mapping = aes(x = bill_length_mm, fill=species), alpha=0.5)
+```
+
+## Relationship between multiple traits
+
+These charts show the relationship between body mass and flipper length in the different species of penguins.
+
+```{R echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = body_mass_g, y = flipper_length_mm, color = species)) +
+  geom_point() +
+  geom_smooth(method="lm")
+
+```
+
+## Sexual dimorphism
+
+These charts show which traits are sexually dimorphic and which are not.
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = sex)) +
+  geom_point(size = 1) +
+  facet_wrap(~species)
+
+```
+
+
